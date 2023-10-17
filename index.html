@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+    <title> 
+        Box Model - Descodificadas
+    </title> 
+
+    <style>
+        div {
+            height: 400px;
+            width: 400px;
+
+            border-width: 10px;
+            border-style: double;
+            border-color: blueviolet;  
+            /* arredondar as bordas */      
+            border-radius: 30%;
+
+            background-image: url(Zinnia.webp);
+            text-align: center;           
+            /* Sombra da caixa */
+            box-shadow: inset 10px 15px 18px 20px rebeccapurple;
+           /* "cover" preenche a caixa com toda imagem */
+            background-size: cover;
+
+            padding: 10px 10px 10px 20px;
+
+            /* contorno por fora */
+            outline-width: 40;
+            outline-style: dashed;
+            outline-color: rgb(252, 45, 190);
+
+            /* "auto" centralizo o objeto na página */
+            margin: auto;
+            /* "top" empurro o objeto para baixo */
+            margin-top: 20px;
+        }
+
+        /* Estilo parágrafo, lembrar de fechar o { de cima */
+            p {
+                padding-top: 80px;
+                font-style: italic;
+                font-size: 80px;
+                color: rgb(221, 240, 53);
+                font-weight: bold;
+            }
+
+        
+ 
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <p>Carol</p>
+    </div>       
+
+
+
+</body>
+</html>
